@@ -4,8 +4,11 @@ cask_args appdir: "/Applications"
 
 # brew
 
+brew 'atomicparsley'          # set itunes style matadata with alacrity
 brew 'ctop'                   # top-like interface for container metrics
 brew 'curl'                   # transfer data for url
+brew 'docker'                 # docker
+brew 'exiftool'               # edit metadata for image, audio, video and pdf
 brew 'ffmpeg'                 # record, convert and stream audio and video
 brew 'ghq'                    # remote repository management made easy
 brew 'gist'                   # gist cli
@@ -14,6 +17,7 @@ brew 'htop'                   # interactive text-mode process viewer
 brew 'hub'                    # wrapper for git
 brew 'jq'                     # json data viewer like sed
 brew 'mackup'                 # application settings in sync
+brew 'nkf'                    # network kanji fillter is string code transfer
 brew 'openssl'                # secure sockets layer protocols
 brew 'peco'                   # a simplistic interactive filtering tool
 brew 'rmtrash'                # wrapper for rm
@@ -24,6 +28,8 @@ brew 'telnet'                 # teletype network
 brew 'tig'                    # wrapper for git
 brew 'tree'                   # display directories as trees
 brew 'tmux'                   # terminal multiplexer
+brew 'youtube-dl'             # download videos from command-line
+brew 'wget'                   # download contents 
 brew 'z'                      # wrapper cd
 brew 'zsh-completions'        # additional completion definitions for zsh
 brew 'zsh'                    # unix shell
@@ -31,13 +37,13 @@ brew 'zsh'                    # unix shell
 brew 'rbenv'                  # ruby environment
 brew 'ruby-build'             # build any version of ruby
 brew 'pyenv'                  # python environment
+brew 'nodenv'                 # node.js enviroment 
 brew 'mas'                    # mac app store command-line interface
 
 
 # cask
 
 cask 'aegisub'                # subtitle editor
-cask 'amorphousdiskmark'      # disk speed tester
 cask 'arduino'                # arduino IDE
 cask 'atom'                   # code editor
 cask 'balenaetcher'           # OS images writer
@@ -62,6 +68,7 @@ cask 'github'                 # github client
 cask 'google-chrome'          # chromium-based browser
 cask 'gpg-suite'              # gpg keychain
 cask 'handbrake'              # video convertor
+cask 'iina'                   # video player
 cask 'intel-power-gadget'     # cpu resource viewer
 cask 'istat-menus'            # computer status viewer
 cask 'istumbler'              # wi-fi signal viewer
@@ -84,6 +91,8 @@ cask 'sublime-text'           # code editor
 cask 'teamspeak-client'       # audio text chat
 cask 'the-unarchiver'         # file decompression
 cask 'typora'                 # markdown editor
+cask 'vagrant'                # virtual machine
+cask 'virtualbox'             # virtualization
 cask 'vlc'                    # video viewer
 cask 'wireshark'              # packet viewer
 cask 'xld'                    # audio converter
@@ -109,6 +118,7 @@ cask 'logitech-options'       # mouse option driver
 
 # mas free
 
+mas 'AmorphousMemoryMark', id: 1495719766 # disk speed tester
 mas 'Speedtest by Ookla', id: 1153157709
 mas 'LanScan', id: 472226235
 mas 'Pages', id: 409201541
